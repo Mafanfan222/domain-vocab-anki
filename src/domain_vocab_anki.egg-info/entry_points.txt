@@ -1,0 +1,2 @@
+[console_scripts]
+domain-vocab-anki = domain_vocab_anki.cli:main

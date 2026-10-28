@@ -1,0 +1,32 @@
+{
+  "name": "天文学科普英语离线示例",
+  "domain_context": "学习入门天文学词汇，准确理解行星运动和基础观测概念。",
+  "learning_goal": "阅读简短天文科普文章，并用英语解释常见天文现象",
+  "use_scenario": "为高中生写一段通俗但准确的天文学说明",
+  "sample_format": "explanation",
+  "learner_level": "intermediate English",
+  "topics": ["solar system", "observation", "celestial motion"],
+  "prohibited_claims": "Avoid invented measurements or unsupported scientific claims.",
+  "provider": "bank",
+  "model": "",
+  "daily_new": 10,
+  "review_intervals": [1, 2, 4, 7, 15, 30],
+  "review_per_batch": 2,
+  "max_review_questions": 12,
+  "anki": {"url": "http://127.0.0.1:8765", "deck": "Domain Vocab::Astronomy Demo", "note_type": "Basic", "front_field": "Front", "back_field": "Back"},
+  "bank": [
+    {"term": "orbit", "ipa": "/ˈɔːrbɪt/", "part_of_speech": "n.", "meaning_zh": "轨道", "context_zh": "描述天体绕另一物体运行的路径。", "example_en": "Earth follows an orbit around the Sun.", "example_zh": "地球沿轨道绕太阳运行。", "collocation_zh": "in orbit；不要与旋转 rotation 混淆。"},
+    {"term": "axis", "ipa": "/ˈæksɪs/", "part_of_speech": "n.", "meaning_zh": "轴；自转轴", "context_zh": "解释地球自转与地轴倾斜。", "example_en": "Earth rotates around an imaginary axis.", "example_zh": "地球绕一条假想的轴自转。", "collocation_zh": "Earth's axis；复数是 axes。"},
+    {"term": "rotation", "ipa": "/roʊˈteɪʃən/", "part_of_speech": "n.", "meaning_zh": "自转；旋转", "context_zh": "描述天体绕自身轴转动。", "example_en": "Earth's rotation causes the daily cycle of day and night.", "example_zh": "地球自转造成昼夜更替。", "collocation_zh": "Earth's rotation；与 revolution 公转区分。"},
+    {"term": "revolution", "ipa": "/ˌrevəˈluːʃən/", "part_of_speech": "n.", "meaning_zh": "公转", "context_zh": "描述天体绕另一物体完成一周的运动。", "example_en": "Earth's revolution around the Sun takes about one year.", "example_zh": "地球绕太阳公转一周约需一年。", "collocation_zh": "revolution around the Sun；在此处不指革命。"},
+    {"term": "atmosphere", "ipa": "/ˈætməsfɪr/", "part_of_speech": "n.", "meaning_zh": "大气层", "context_zh": "解释观测条件与行星环境。", "example_en": "Earth's atmosphere can affect ground-based observations.", "example_zh": "地球大气层会影响地面观测。", "collocation_zh": "Earth's atmosphere；也可指气氛，需看语境。"},
+    {"term": "gravity", "ipa": "/ˈɡrævɪti/", "part_of_speech": "n.", "meaning_zh": "引力；重力", "context_zh": "解释天体相互吸引及轨道运动。", "example_en": "Gravity helps keep planets in orbit around stars.", "example_zh": "引力使行星维持绕恒星运行的轨道。", "collocation_zh": "force of gravity；不可数名词。"},
+    {"term": "telescope", "ipa": "/ˈtelɪskoʊp/", "part_of_speech": "n.", "meaning_zh": "望远镜", "context_zh": "描述观察遥远天体的仪器。", "example_en": "A telescope can collect light from faint objects.", "example_zh": "望远镜能收集暗弱天体发出的光。", "collocation_zh": "space telescope；也有地面望远镜。"},
+    {"term": "spectrum", "ipa": "/ˈspektrəm/", "part_of_speech": "n.", "meaning_zh": "光谱", "context_zh": "介绍分析天体发光特征的方法。", "example_en": "A star's spectrum can reveal clues about its composition.", "example_zh": "恒星光谱可以提供其组成的信息。", "collocation_zh": "light spectrum；复数是 spectra 或 spectrums。"},
+    {"term": "eclipse", "ipa": "/ɪˈklɪps/", "part_of_speech": "n.", "meaning_zh": "食；日食或月食", "context_zh": "描述一个天体遮挡另一物体的光。", "example_en": "A solar eclipse occurs when the Moon blocks our view of the Sun.", "example_zh": "当月球挡住我们观看太阳的视线时，就会发生日食。", "collocation_zh": "solar eclipse 日食；lunar eclipse 月食。"},
+    {"term": "constellation", "ipa": "/ˌkɑːnstəˈleɪʃən/", "part_of_speech": "n.", "meaning_zh": "星座", "context_zh": "描述从地球视角看到的星群图案。", "example_en": "A constellation is a named pattern of stars in the sky.", "example_zh": "星座是天空中有名称的恒星图案。", "collocation_zh": "recognize a constellation；图案中的恒星未必彼此靠近。"}
+  ],
+  "sample_en": "When we look at the night sky, a telescope helps us observe objects that are too faint to see clearly with our eyes. Earth's rotation makes the stars appear to move across the sky, while its revolution around the Sun defines a year. The planet's axis is tilted, which contributes to the seasons. Gravity keeps Earth in its orbit around the Sun and holds the Moon nearby. Our atmosphere can blur some observations. During an eclipse, one object blocks light from another as seen from a particular location. A spectrum can reveal information about the light emitted by a star. A constellation is a pattern of stars as seen from Earth.",
+  "sample_zh": "观察夜空时，望远镜帮助我们看清肉眼难以辨认的暗弱天体。地球自转使恒星看起来在天空中移动，而地球绕太阳公转决定了一年的长度。地轴倾斜也促成了季节变化。引力使地球保持在绕太阳的轨道上，也使月球留在地球附近。大气层可能使一些观测变得模糊。发生食时，从特定位置看，一个天体挡住了另一个天体的光。光谱可提供恒星发光的信息。星座则是从地球看到的恒星图案。",
+  "practice_task_zh": "请用英语写 4–5 句，向同学解释自转与公转的区别，并说明望远镜和大气层如何影响观测。至少使用 rotation、revolution、telescope、atmosphere 四个新词。"
+}
