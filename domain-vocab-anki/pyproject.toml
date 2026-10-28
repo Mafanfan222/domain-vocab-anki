@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "domain-vocab-anki"
+version = "0.1.0"
+description = "Configurable daily domain-English lessons with spaced review and local Anki sync"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Community contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+ai = ["openai>=1.55"]
+
+[project.scripts]
+domain-vocab-anki = "domain_vocab_anki.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
